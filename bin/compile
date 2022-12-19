@@ -27,11 +27,7 @@ BP_DIR=`cd $(dirname $0); cd ..; pwd`
 export NEW_BUILD_SCRIPT_BEHAVIOR=true
 
 echo
-echo "=====! create-react-app-buildpack has reached end-of-life 🌅"
-echo "       This build may succeed, but the buildpack is no longer maintained."
-echo "       On the Heroku-22 stack and beyond, this may fail to build at all."
-echo
-echo "       Please consider migrating to https://nextjs.org or https://remix.run to develop React apps which are deployable using Heroku's Node.js buildpack https://github.com/heroku/heroku-buildpack-nodejs, or you may develop your own create-react-app deployment with Node.js and Nginx buildpacks."
+echo "===== create-react-app-buildpack for the Heroku-22 stack ====="
 echo
 
 # Use architecture of multi-buildpack to compose behavior.
